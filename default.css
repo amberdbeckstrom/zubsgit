@@ -186,9 +186,26 @@ h5 {
 
 }
 
+.subssize2 {
+	float:left;
+	margin-left: 2em;
+	font-weight: 700;
+	margin-top: -1em;
+
+}
+
+
+
 .pizzaprice {
 	float: left;
 	margin-left: 1.4em;
+
+}
+
+.pizzaprice2 {
+	float: left;
+	margin-left: 1.4em;
+	margin-top: -1em;
 
 }
 
