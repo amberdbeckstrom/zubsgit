@@ -76,6 +76,14 @@ h5 {
 	margin-left: 7%;
 }
 
+.menu12{
+	width: 37%;
+	float: left;
+	margin-left: -86%;
+	margin-top: 25%;
+
+}
+
 
 .menu2{
 	width: 37%;
@@ -385,6 +393,10 @@ footer{
 	padding: 3em 0em;
 }
 
+.space {
+	height: 500px;
+
+}
 
 
 
