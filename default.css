@@ -1,3 +1,4 @@
+ 
 /*
 *{
 	outline:1px solid red;
@@ -64,8 +65,6 @@ h5 {
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
-
-
 }
 
 
@@ -81,7 +80,6 @@ h5 {
 	float: left;
 	margin-left: -86%;
 	margin-top: 25%;
-
 }
 
 
@@ -90,7 +88,16 @@ h5 {
 	float: left;
 	margin-left: 12%;
 	margin-bottom: 6.5%;
+}
 
+
+
+.menu23{
+	width: 37%;
+	float: left;
+	margin-left: 13%;
+	margin-bottom: 6.5%;
+	margin-top: -22%
 }
 
 .menu3{
@@ -121,6 +128,15 @@ h5 {
 	clear: both;
 	line-height: 1.4em;
 	color: #28a1ee;
+}
+
+.pizzatext1 {
+	position: relative;
+	margin-left: 5%;
+	top: 0px;
+	clear: both;
+	line-height: 1.4em;
+	color: #;
 }
 
 .substext {
@@ -166,6 +182,16 @@ h5 {
 
 }
 
+.buildtext1 {
+	position: relative;
+	left: 5.5%;
+	top: 10px;
+	clear: both;
+	line-height: 1.4em;
+	color: #28a1ee;
+
+}
+
 .pizzasize {
 	float:left;
 	margin-left: 2em;
@@ -202,11 +228,16 @@ h5 {
 
 }
 
-
-
 .pizzaprice {
 	float: left;
 	margin-left: 1.4em;
+
+}
+
+.pizzaprice3 {
+	float: left;
+	margin-left: 1.4em;
+	margin-top: -5%;
 
 }
 
@@ -266,8 +297,13 @@ h5 {
 	clear: left;
 	display: block;
 	margin-top: -18px;
+}
 
-	
+.price3 {
+	float:left;
+	display: block;
+	margin: 0, 0, 0, 0;
+	margin-top: 0px;
 }
 
 
