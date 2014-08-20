@@ -31,6 +31,10 @@ h1, h2, h3, {
 
 }
 
+.phone {
+	color: #7c28ee;
+}
+
 
 .belowtitle
 {
@@ -75,6 +79,21 @@ h5 {
 	margin-left: 7%;
 }
 
+.menu1d{
+	width: 37%;
+	float: left;
+	margin-left: 7%;
+	margin-top: 2%;
+}
+
+
+.menu123{
+	width: 37%;
+	float: left;
+	margin-left: 7%;
+	margin-top: -13%;
+}
+
 .menu12{
 	width: 37%;
 	float: left;
@@ -90,14 +109,27 @@ h5 {
 	margin-bottom: 6.5%;
 }
 
+.menu223{
+	width: 37%;
+	float: left;
+	margin-left: 12%;
+	margin-top: 6%;
+}
 
+.menu24{
+	width: 37%;
+	float: left;
+	margin-left: 12%;
+	margin-bottom: 6.5%;
+	margin-top: 6%;
+}
 
 .menu23{
 	width: 37%;
 	float: left;
-	margin-left: 13%;
+	margin-left: 16%;
 	margin-bottom: 6.5%;
-	margin-top: -22%
+	margin-top: -25%
 }
 
 .menu3{
