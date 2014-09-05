@@ -1,8 +1,8 @@
  
-/*
+
 *{
 	outline:1px solid red;
-}*/
+}
 
 html, body {
 	height: 100%;
@@ -11,7 +11,6 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #7c28ee;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
@@ -23,12 +22,14 @@ h1, h2, h3, {
 	padding: 0;
 }
 
+.navigationlinks {
+	display: none;
+}
+
 .container, span
 {
 	font-weight:400;
 	color: #58595b;
-
-
 }
 
 .phone {
@@ -249,7 +250,6 @@ h5 {
 	float:left;
 	margin-left: 2em;
 	font-weight: 700;
-
 }
 
 .subssize2 {
@@ -263,7 +263,6 @@ h5 {
 .pizzaprice {
 	float: left;
 	margin-left: 1.4em;
-
 }
 
 .pizzaprice3 {
@@ -296,14 +295,13 @@ h5 {
 .bbprice {
 	float: left;
 	margin-left: 2.4em;
-
 }
 
 .bbprice1 {
 	float: left;
 	margin-left: 0em;
-
 }
+
 .size {
 	display: block;
 	margin-top: 30px;
@@ -343,15 +341,12 @@ h5 {
 	float:left;
 	display: block;
 	margin-left: -.5em;
-
-
 }
-
-
 
 
 .subhead {
 	color: #f55d02;
+	margin-top: 335px;
 }
 
 h2 {
@@ -383,17 +378,14 @@ p
 	font-size: 12pt;
 }
 
-strong
-{
+strong {
 }
 
-a
-{
+a {
 	color: #063882;
 }
 
-a:hover
-{
+a:hover {
 	text-decoration: none;
 }
 
@@ -446,6 +438,7 @@ a:hover
 
 
 footer{
+	background-color: #7c28ee;
 	z-index: 100;
 	letter-spacing: 0.20em;
 	text-align: center;
@@ -509,80 +502,8 @@ footer{
 	width: auto;
 }
 
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
 
-	ul.style1
-{
-}
 
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
-
-	ul.contact
-{
-	margin: 0;
-	padding: 2em 0em 0em 0em;
-	list-style: none;
-}
-
-ul.contact li
-{
-	display: inline-block;
-	padding: 0em 0.30em;
-	font-size: 1em;
-}
-
-ul.contact li span
-{
-	display: none;
-	margin: 0;
-	padding: 0;
-}
-
-ul.contact li a
-{
-	color: #FFF;
-}
-
-ul.contact li a:before
-{
-	display: inline-block;
-	background: #3f3f3f;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	border-radius: 20px;
-	text-align: center;
-	color: #FFFFFF;
-}
-
-ul.contact li a.icon-twitter:before
-{
-	background: #2DAAE4;
-}
-
-ul.contact li a.icon-facebook:before
-{
-	background: #39599F;
-}
-
-ul.contact li a.icon-dribbble:before
-{
-	background: #C4376B;
-}
-
-ul.contact li a.icon-tumblr:before
-{
-	background: #31516A;
-}
-
-ul.contact li a.icon-rss:before
-{
-	background: #F2600B;
-}
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -617,8 +538,7 @@ ul.contact li a.icon-rss:before
 /* 4-column                                                                      */
 /*********************************************************************************/
 
-	.box1,  .box2,  .box3,  .box4
-{
+.box1,  .box2,  .box3,  .box4 {
 	width: 235px;
 }
  .box1,  .box2,  .box3, {
@@ -626,8 +546,7 @@ ul.contact li a.icon-rss:before
  margin-right: 20px;
 }
 
-.box4
-{
+.box4 {
 	float: right;
 }
 
@@ -635,28 +554,29 @@ ul.contact li a.icon-rss:before
 /* 3-column                                                                      */
 /*********************************************************************************/
 
-	.boxA,  .boxB,  .boxC
-{
+.boxA,  .boxB,  .boxC {
 	width: 300px;
 }
 
-	.boxD
-{
+.boxD {
 	width: 650px;
 	padding: 0em 0em;
 	margin: 0px;
 	
 }
 
-.boxA,  .boxB
-{
+.boxA,  .boxB {
 	float: left;
 	margin-right: 50px;
 }
 
-.boxC
-{
+.boxC {
 	float: right;
+}
+
+.fimage {
+	height: 300px;
+	width: 300px;
 }
 
 
@@ -767,16 +687,20 @@ ul.contact li a.icon-rss:before
 /* Logo                                                                          */
 /*********************************************************************************/
 
-	#logo
-{
-}
+
 
 #logo h1
 {
+
 	position: absolute;
 	top: 20px;
 	left: 0;
 	
+}
+
+.logosize {
+	width: 120px;
+	height: 80px;
 }
 
 
@@ -832,7 +756,7 @@ ul.contact li a.icon-rss:before
 /* Banner                                                                        */
 /*********************************************************************************/
 
-	#banner
+#banner
 {
 	padding: 10em 0em;
 }
@@ -896,29 +820,6 @@ ul.contact li a.icon-rss:before
 		font-size: 1.5em;
 	}
 
-/*********************************************************************************/
-/* Content                                                                       */
-/*********************************************************************************/
-
-	#content
-{
-}
-
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
-	#sidebar
-{
-}
-
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-	#footer
-{
-}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
@@ -935,7 +836,7 @@ ul.contact li a.icon-rss:before
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
-	.title {
+.title {
 
 	margin-bottom: 2em;
 	text-transform: uppercase;
@@ -976,135 +877,738 @@ ul.contact li a.icon-rss:before
 }
 
 /*********************************************************************************/
-/* Welcome                                                                       */
+/* Mobile*/
 /*********************************************************************************/
 
-#welcome
-{
-	padding: 5em 0em 0em 0em;
-	border-top: 1px solid #28a1ee;
-	text-align: center;
+
+
+@media (max-width: 320px) and (orientation: portrait) {
+
+body {
+	width: 320px;
+	background: blue;
 }
 
-ul.style3
+#logo h1
 {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	list-style: none;
-	color: #6c6c6c
+	float:left;
+	margin-top: -9px;
+	margin-left: 25px;
+	z-index: 200;
 }
 
-ul.style3 li
-{
-	padding: 1.6em 0em 0em 0em;
-	margin: 0 0 1em 0;
+.logosize {
+	width: 90px;
+	height: 60px;
 }
 
-ul.style3 p
-{
-	margin: 0;
+#header {
+	width: 320px;
+	height: 46px;
 }
 
-ul.style3 a
-{
-	display: block;
-	text-decoration: none;
-	color: #2D2D2D;
+#banner {
+	display: none;
 }
 
-ul.style3 a:hover
-{
-	text-decoration: underline;
-}
-
-ul.style3 h3
-{
-	padding: 1em 0em 5px 0em;
-	text-transform: uppercase;
-	font-size: 1em;
-	font-weight: 300;
-}
-
-ul.style3 .first
-{
-	padding-top: 0;
-	background: none;
-}
-
-ul.style3 .date
-{
-	float: left;
+#header-wrapper {
+	background: url(images/steaknstuff320.jpg) no-repeat center;
+	background-size: 320px;
 	position: relative;
-	width: 80px;
-	height: 70px;
-	margin: 0.5em 1.5em 0em 0.5em;
-	padding: 20px 0em 0em 0em;
-	background: #262626;
-	border-radius: 5px;
-	box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.1);
-	line-height: normal;
+	margin-top: 0px;
+}
+
+
+#menu {
+	display: none;	
+}
+
+
+.navigationlinks {
+	display: inline-block;
+	height: 200px;
+	width: 320px;
+}
+
+.navigationlinks, li {
+	height: 40px;
+	position: relative;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+li a  {
+	margin-top: 20px;
+ 	padding: 0px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 600;
+	color: #FFF;
+	position: relative;
+
+}
+
+.fingermenu {
+	float: center;
+	top: 10px;
+	color: #d9cd00;
+}
+
+
+
+
+a {	
+	position: relative;
+	margin-top: 10px;
+    color: #063882;
+    text-align: center;
+}
+
+li:hover {
+	text-decoration: none;
+	background-color: #7c28ee;
+}
+
+h2 {
+	width: 320px;
+}
+
+.title h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.1em;
+}
+
+.container, span {
+	width: 320px;
+}
+
+span {
+	display: none;
+}
+
+.boxA,  .boxB,  .boxC {
+	width: 320px;
+}
+
+
+.fimage {
+	height: 320px;
+	width: 320px;
+}
+
+
+.subhead {
+	margin-top: 350px;
+	color: #f55d02;
+	margin-left: 25px;
+	margin-right: 12px;
+}
+
+.style2, p {
+	margin-top: 5%;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+footer {
+	margin-top: -30px;
+	margin-bottom: 0px;
+	height: 150px;
+}
+
+.copyright {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	line-height: 1.2em;
+}
+
+#page
+{
+	padding-bottom: 3em;
+	margin-top: -40px;
+	width: 320px;
+}
+
+#wrapper {
+	width: 320px;
+	position: relative;
+	margin-top: 21px;
+}
+
+#wrapper5 {
+	width: 320px;
+	position: relative;
+	margin-top: 190px;
+}
+
+#banner {
+	/*padding: 10em 0em;*/
+	display: none;
+}
+
+#staff{
+	padding: 2em 0em 2.7em 0em;
+	text-align: center;
+}
+
+.pizzapage {
+	padding: 2.2em 0em 2.7em 0em;
+	text-align: center;
+	/*border-top: solid 1px blue;*/
+}
+
+.menu1{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 30px;
+}
+
+.menu2{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu23{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu24{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu223 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu123 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 30px;
+}
+
+.menu1d{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu3{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: -12px;
+}
+
+.pizzatext {
+	margin-left: 0px;
+}
+
+.buildtext {
+	margin-left: -27px;
+
+}
+
+.buildtext1 {
+	margin-left: -16px;
+}
+
+.pizzatext1 {
+	margin-left: 0px;
+}
+
+.substext {
+	margin-left: 0px;
+}
+
+.pizzaprice {
+	float: left;
+	margin-left: 1.4em;
+	margin-top: 16px;
+	padding: 0px;
+}
+
+#page3 {
+	margin-top: -40px;
+	padding-bottom: 5em;
+}
+
+.about{
+	width: 275px;
+	float: left;
+	margin-left: 0%;
+}
+
+.about2{
+	width: 275px;
+	float: left;
+	margin-left: -12%;
+	margin-top: -40px;
+	
+}
+
+.subhead {
+	margin-top: -0%;
+	width: 264px;
+	margin-left: 4%;
+	margin-bottom: -13px;
+}
+
+.locationtitle {
+	margin-left: 12px;
+}
+
+.ddtext {
+	margin-left: 0%;
+}
+
+.bbprice {
+	float: left;
+	margin-left: .9em;
+}
+
+.bbprice1 {
+	float: left;
+	margin-left: 0em;
+}
+
+
+#wrapper2 {
+	background: #FFF;
+	height: 740px;
+	margin-top: -80px;
+
+}
+
+.phoneprice {
+	float: left;
+	margin-left: 1.7em;
+	margin-top: 16px;
+}
+
+.phoneprice2 {
+	float: left;
+	margin-left: 2.2em;
+	margin-top: 16px;
+}
+
+.sprice {
+	float:left;
+	display: block;
+	margin-left: -1.3em;
+}
+
+.subssize3 {
+	float:left;
+	margin-left: .7em;
+	font-weight: 700;
+}
+
+.newpizzatitle {
+	color: #28a1ee;
+	margin-top: 60px;
+}
+
+.ddfooter{
+	background-color: #7c28ee;
+	z-index: 100;
+	letter-spacing: 0.20em;
 	text-align: center;
 	text-transform: uppercase;
-	text-shadow: 0px 1px 0px rgba(0,0,0,.2);
-	font-size: 1em;
+	font-size: 0.80em;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
-	color: #FFF;
+	margin-top: -180px;
 }
 
-ul.style3 .date:after
-{
-	content: '';
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 6px;
 }
 
-ul.style3 .date b
-{
-	margin: 0;
-	padding: 0;
-	display: block;
-	margin-top: -5px;
-	font-size: 1.8em;
-	font-weight: 700;
-	color: #FFFFFF;
+/*********************************************************************************/
+/* Mobile*/
+/*********************************************************************************/
+
+
+
+@media (max-width: 480px) and (orientation: portrait) {
+
+body {
+	width: 480px;
+	background: blue;
 }
 
-ul.style3 .date a
+#logo h1
 {
-	color: #FFFFFF !important;
+	float:left;
+	margin-top: -9px;
+	margin-left: 25px;
+	z-index: 200;
 }
 
-ul.style3 .date a:hover
-{
+.logosize {
+	width: 90px;
+	height: 60px;
+}
+
+#header {
+	width: 320px;
+	height: 46px;
+}
+
+#banner {
+	display: none;
+}
+
+#header-wrapper {
+	background: url(images/steaknstuff320.jpg) no-repeat center;
+	background-size: 320px;
+	position: relative;
+	margin-top: 0px;
+}
+
+
+#menu {
+	display: none;	
+}
+
+
+.navigationlinks {
+	display: inline-block;
+	height: 200px;
+	width: 320px;
+}
+
+.navigationlinks, li {
+	height: 40px;
+	position: relative;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+li a  {
+	margin-top: 20px;
+ 	padding: 0px;
+	letter-spacing: 1px;
 	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 600;
+	color: #FFF;
+	position: relative;
+
 }
 
-ul.style4
+.fingermenu {
+	float: center;
+	top: 10px;
+	color: #d9cd00;
+}
+
+
+
+
+a {	
+	position: relative;
+	margin-top: 10px;
+    color: #063882;
+    text-align: center;
+}
+
+li:hover {
+	text-decoration: none;
+	background-color: #7c28ee;
+}
+
+h2 {
+	width: 320px;
+}
+
+.title h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.1em;
+}
+
+.container, span {
+	width: 320px;
+}
+
+span {
+	display: none;
+}
+
+.boxA,  .boxB,  .boxC {
+	width: 320px;
+}
+
+
+.fimage {
+	height: 320px;
+	width: 320px;
+}
+
+
+.subhead {
+	margin-top: 350px;
+	color: #f55d02;
+	margin-left: 25px;
+	margin-right: 12px;
+}
+
+.style2, p {
+	margin-top: 5%;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+footer {
+	margin-top: -30px;
+	margin-bottom: 0px;
+	height: 150px;
+}
+
+.copyright {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	line-height: 1.2em;
+}
+
+#page
 {
-	margin: 0px;
+	padding-bottom: 3em;
+	margin-top: -40px;
+	width: 320px;
+}
+
+#wrapper {
+	width: 320px;
+	position: relative;
+	margin-top: 21px;
+}
+
+#wrapper5 {
+	width: 320px;
+	position: relative;
+	margin-top: 190px;
+}
+
+#banner {
+	/*padding: 10em 0em;*/
+	display: none;
+}
+
+#staff{
+	padding: 2em 0em 2.7em 0em;
+	text-align: center;
+}
+
+.pizzapage {
+	padding: 2.2em 0em 2.7em 0em;
+	text-align: center;
+	/*border-top: solid 1px blue;*/
+}
+
+.menu1{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 30px;
+}
+
+.menu2{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu23{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu24{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu223 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu123 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 30px;
+}
+
+.menu1d{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu3{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: -12px;
+}
+
+.pizzatext {
+	margin-left: 0px;
+}
+
+.buildtext {
+	margin-left: -27px;
+
+}
+
+.buildtext1 {
+	margin-left: -16px;
+}
+
+.pizzatext1 {
+	margin-left: 0px;
+}
+
+.substext {
+	margin-left: 0px;
+}
+
+.pizzaprice {
+	float: left;
+	margin-left: 1.4em;
+	margin-top: 16px;
 	padding: 0px;
-	list-style: none;
 }
 
-ul.style4 li
-{
-	border-top: 1px solid rgba(0,0,0,0.1);
-	line-height: 3em;
+#page3 {
+	margin-top: -40px;
+	padding-bottom: 5em;
 }
 
-ul.style4 a
-{
-	color: #2D2D2D;
+.about{
+	width: 275px;
+	float: left;
+	margin-left: 0%;
 }
 
-ul.style4 .first
-{
-	padding-top: 0px;
-	border-top: none;
+.about2{
+	width: 275px;
+	float: left;
+	margin-left: -12%;
+	margin-top: -40px;
+	
 }
+
+.subhead {
+	margin-top: -0%;
+	width: 264px;
+	margin-left: 4%;
+	margin-bottom: -13px;
+}
+
+.locationtitle {
+	margin-left: 12px;
+}
+
+.ddtext {
+	margin-left: 0%;
+}
+
+.bbprice {
+	float: left;
+	margin-left: .9em;
+}
+
+.bbprice1 {
+	float: left;
+	margin-left: 0em;
+}
+
+
+#wrapper2 {
+	background: #FFF;
+	height: 740px;
+	margin-top: -80px;
+
+}
+
+.phoneprice {
+	float: left;
+	margin-left: 1.7em;
+	margin-top: 16px;
+}
+
+.phoneprice2 {
+	float: left;
+	margin-left: 2.2em;
+	margin-top: 16px;
+}
+
+.sprice {
+	float:left;
+	display: block;
+	margin-left: -1.3em;
+}
+
+.subssize3 {
+	float:left;
+	margin-left: .7em;
+	font-weight: 700;
+}
+
+.newpizzatitle {
+	color: #28a1ee;
+	margin-top: 60px;
+}
+
+.ddfooter{
+	background-color: #7c28ee;
+	z-index: 100;
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	margin-top: -180px;
+}
+
+}
+
