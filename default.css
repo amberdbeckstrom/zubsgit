@@ -1,4 +1,11 @@
  
+<<<<<<< HEAD
+=======
+
+*{
+	outline:1px solid red;
+}
+>>>>>>> d0f21865d4d9733773655cdfbcef15b6a40b9949
 
 /**{
 	outline:1px solid red;
@@ -882,10 +889,610 @@ footer{
 
 
 
+<<<<<<< HEAD
 @media (max-width: 420px) and (orientation: portrait) {
+=======
+@media (max-width: 320px) and (orientation: portrait) {
+>>>>>>> d0f21865d4d9733773655cdfbcef15b6a40b9949
 
 body {
 	width: 320px;
+	background: blue;
+}
+
+#logo h1
+{
+	float:left;
+	margin-top: -9px;
+	margin-left: 25px;
+	z-index: 200;
+}
+
+.logosize {
+	width: 90px;
+	height: 60px;
+}
+
+#header {
+	width: 320px;
+	height: 46px;
+}
+
+#banner {
+	display: none;
+}
+
+#header-wrapper {
+	background: url(images/steaknstuff320.jpg) no-repeat center;
+	background-size: 320px;
+	position: relative;
+	margin-top: 0px;
+}
+
+
+#menu {
+	display: none;	
+}
+
+
+.navigationlinks {
+	display: inline-block;
+	height: 200px;
+	width: 320px;
+}
+
+.navigationlinks, li {
+	height: 40px;
+	position: relative;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+li a  {
+	margin-top: 20px;
+ 	padding: 0px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 600;
+	color: #FFF;
+	position: relative;
+
+}
+
+.fingermenu {
+	float: center;
+	top: 10px;
+	color: #d9cd00;
+}
+
+
+
+
+a {	
+	position: relative;
+	margin-top: 10px;
+    color: #063882;
+    text-align: center;
+}
+
+li:hover {
+	text-decoration: none;
+	background-color: #7c28ee;
+}
+
+h2 {
+	width: 320px;
+}
+
+.title h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.1em;
+}
+
+.container, span {
+	width: 320px;
+}
+
+span {
+	display: none;
+<<<<<<< HEAD
+}
+
+.boxA,  .boxB,  .boxC {
+	width: 320px;
+}
+
+
+.fimage {
+	height: 320px;
+	width: 320px;
+}
+
+
+.subhead {
+	margin-top: 350px;
+	color: #f55d02;
+	margin-left: 25px;
+	margin-right: 12px;
+}
+
+.style2, p {
+	margin-top: 5%;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+footer {
+	margin-top: -30px;
+	margin-bottom: 0px;
+	height: 150px;
+}
+
+.copyright {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	line-height: 1.2em;
+}
+
+#page
+{
+	padding-bottom: 3em;
+	margin-top: -40px;
+	width: 320px;
+}
+
+#wrapper {
+	width: 320px;
+	position: relative;
+	margin-top: 21px;
+}
+
+#wrapper5 {
+	width: 320px;
+	position: relative;
+	margin-top: 190px;
+}
+
+#banner {
+	/*padding: 10em 0em;*/
+	display: none;
+}
+
+#staff{
+	padding: 2em 0em 2.7em 0em;
+	text-align: center;
+}
+
+.pizzapage {
+	padding: 2.2em 0em 2.7em 0em;
+	text-align: center;
+	/*border-top: solid 1px blue;*/
+}
+
+.menu1{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 30px;
+}
+
+.menu2{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu23{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu24{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu223 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu123 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 30px;
+}
+
+.menu1d{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu3{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: -12px;
+}
+
+.pizzatext {
+	margin-left: 0px;
+}
+
+.buildtext {
+	margin-left: -27px;
+
+}
+
+.buildtext1 {
+	margin-left: -16px;
+}
+
+.pizzatext1 {
+	margin-left: 0px;
+}
+
+.substext {
+	margin-left: 0px;
+}
+
+.pizzaprice {
+	float: left;
+	margin-left: 1.4em;
+	margin-top: 16px;
+	padding: 0px;
+}
+
+#page3 {
+	margin-top: -40px;
+	padding-bottom: 5em;
+}
+
+.about{
+	width: 275px;
+	float: left;
+	margin-left: 0%;
+}
+
+.about2{
+	width: 275px;
+	float: left;
+	margin-left: -12%;
+	margin-top: -40px;
+	
+}
+
+.subhead {
+	margin-top: -0%;
+	width: 264px;
+	margin-left: 4%;
+	margin-bottom: -13px;
+}
+
+.locationtitle {
+	margin-left: 12px;
+}
+
+.ddtext {
+	margin-left: 0%;
+}
+
+.bbprice {
+	float: left;
+	margin-left: .9em;
+}
+
+.bbprice1 {
+	float: left;
+	margin-left: 0em;
+}
+
+
+#wrapper2 {
+	background: #FFF;
+	height: 740px;
+	margin-top: -80px;
+
+}
+
+.phoneprice {
+	float: left;
+	margin-left: 1.7em;
+	margin-top: 16px;
+}
+
+=======
+}
+
+.boxA,  .boxB,  .boxC {
+	width: 320px;
+}
+
+
+.fimage {
+	height: 320px;
+	width: 320px;
+}
+
+
+.subhead {
+	margin-top: 350px;
+	color: #f55d02;
+	margin-left: 25px;
+	margin-right: 12px;
+}
+
+.style2, p {
+	margin-top: 5%;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+footer {
+	margin-top: -30px;
+	margin-bottom: 0px;
+	height: 150px;
+}
+
+.copyright {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	line-height: 1.2em;
+}
+
+#page
+{
+	padding-bottom: 3em;
+	margin-top: -40px;
+	width: 320px;
+}
+
+#wrapper {
+	width: 320px;
+	position: relative;
+	margin-top: 21px;
+}
+
+#wrapper5 {
+	width: 320px;
+	position: relative;
+	margin-top: 190px;
+}
+
+#banner {
+	/*padding: 10em 0em;*/
+	display: none;
+}
+
+#staff{
+	padding: 2em 0em 2.7em 0em;
+	text-align: center;
+}
+
+.pizzapage {
+	padding: 2.2em 0em 2.7em 0em;
+	text-align: center;
+	/*border-top: solid 1px blue;*/
+}
+
+.menu1{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-bottom: 30px;
+}
+
+.menu2{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu23{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu24{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu223 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu123 {
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 30px;
+}
+
+.menu1d{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.menu3{
+	width: 275px;
+	float: left;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: -12px;
+}
+
+.pizzatext {
+	margin-left: 0px;
+}
+
+.buildtext {
+	margin-left: -27px;
+
+}
+
+.buildtext1 {
+	margin-left: -16px;
+}
+
+.pizzatext1 {
+	margin-left: 0px;
+}
+
+.substext {
+	margin-left: 0px;
+}
+
+.pizzaprice {
+	float: left;
+	margin-left: 1.4em;
+	margin-top: 16px;
+	padding: 0px;
+}
+
+#page3 {
+	margin-top: -40px;
+	padding-bottom: 5em;
+}
+
+.about{
+	width: 275px;
+	float: left;
+	margin-left: 0%;
+}
+
+.about2{
+	width: 275px;
+	float: left;
+	margin-left: -12%;
+	margin-top: -40px;
+	
+}
+
+.subhead {
+	margin-top: -0%;
+	width: 264px;
+	margin-left: 4%;
+	margin-bottom: -13px;
+}
+
+.locationtitle {
+	margin-left: 12px;
+}
+
+.ddtext {
+	margin-left: 0%;
+}
+
+.bbprice {
+	float: left;
+	margin-left: .9em;
+}
+
+.bbprice1 {
+	float: left;
+	margin-left: 0em;
+}
+
+
+#wrapper2 {
+	background: #FFF;
+	height: 740px;
+	margin-top: -80px;
+
+}
+
+.phoneprice {
+	float: left;
+	margin-left: 1.7em;
+	margin-top: 16px;
+}
+
+>>>>>>> d0f21865d4d9733773655cdfbcef15b6a40b9949
+.phoneprice2 {
+	float: left;
+	margin-left: 2.2em;
+	margin-top: 16px;
+}
+
+.sprice {
+	float:left;
+	display: block;
+	margin-left: -1.3em;
+}
+
+.subssize3 {
+	float:left;
+	margin-left: .7em;
+	font-weight: 700;
+}
+
+.newpizzatitle {
+	color: #28a1ee;
+	margin-top: 60px;
+}
+
+.ddfooter{
+	background-color: #7c28ee;
+	z-index: 100;
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+<<<<<<< HEAD
+	margin-top: -200px;
+}
+
+
+=======
+	margin-top: -180px;
+}
+
+}
+
+/*********************************************************************************/
+/* Mobile*/
+/*********************************************************************************/
+
+
+
+@media (max-width: 480px) and (orientation: portrait) {
+
+body {
+	width: 480px;
 	background: blue;
 }
 
@@ -1239,10 +1846,9 @@ footer {
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
-	margin-top: -200px;
+	margin-top: -180px;
 }
-
-
+>>>>>>> d0f21865d4d9733773655cdfbcef15b6a40b9949
 
 }
 
